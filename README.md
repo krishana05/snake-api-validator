@@ -1,3 +1,48 @@
+# This is Snake API validator App
+
+# BackEnd - Node + Express + TypeScript
+# FrontEnd - React + TypeScript
+
+## How to run the app
+1. BackEnd
+> cd snake-api-validator
+> cd server
+> npm i
+> npm run build
+> npm run start
+> open http://localhost:5000/ and hit the respective endpoints
+> We can use any api testing tool like postman
+> We can test using frontend app as well
+2. FrontEnd
+> cd snake-api-validator
+> npm i
+> npm run start
+> open http://localhost:3000/
+> Default view is to test get /new endpoint by passing the width and height
+> Click on Validate button to test validate api by passing a valid input like:
+{
+    "GameID": "2fe78bd1-bcb8-4f38-a8f6-bf2d61a13730",
+    "Width": 10,
+    "Height": 20,
+    "Score": 0,
+    "Fruit": {
+        "X": 3,
+        "Y": 6
+    },
+    "Snake": {
+        "X": 2,
+        "Y": 6,
+        "VelX": 1,
+        "VelY": 0
+    },
+    "ticks": [
+        {
+         "VelX": 1,
+         "VelY": 0
+        }
+    ]
+}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

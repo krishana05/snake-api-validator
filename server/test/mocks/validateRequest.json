@@ -1,0 +1,22 @@
+{
+  "GameID": "2fe78bd1-bcb8-4f38-a8f6-bf2d61a13730",
+  "Width": 10,
+  "Height": 20,
+  "Score": 0,
+  "Fruit": {
+    "X": 3,
+    "Y": 6
+  },
+  "Snake": {
+    "X": 2,
+    "Y": 6,
+    "VelX": 1,
+    "VelY": 0
+  },
+  "ticks": [
+    {
+        "VelX": 1,
+        "VelY": 0
+    }
+  ]
+}
